@@ -30,52 +30,71 @@ Publish the website in the LocalHost.
     <!DOCTYPE html>
     <html lang="en">
     <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dribbble Clone</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" />
-    <link href="assets/styles/style.css" rel="stylesheet" />
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Dribbble Clone</title>
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" />
+      <link href="assets/styles/style.css" rel="stylesheet" />
     </head>
     <body>
-    <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <!-- Navbar -->
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container-fluid">
-        <a class="navbar-brand" href="#">Dribbble Clone</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <a class="navbar-brand" href="#">
+            <img src="assests/images/imagelogo.png" alt="Dribbble Logo" height="30"> <!-- Add your logo -->
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ms-auto">
-            <li class="nav-item">
+              <li class="nav-item">
                 <a class="nav-link active" href="index.html">Home</a>
-            </li>
-            <li class="nav-item">
+              </li>
+              <li class="nav-item">
                 <a class="nav-link" href="upload.html">Upload</a>
-            </li>
-            <li class="nav-item">
+              </li>
+              <li class="nav-item">
                 <a class="nav-link" href="profile.html">Profile</a>
-            </li>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="exploreDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Explore
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="exploreDropdown">
+                  <li><a class="dropdown-item" href="designers.html">Designers</a></li>
+                  <li><a class="dropdown-item" href="teams.html">Teams</a></li>
+                  <li><a class="dropdown-item" href="projects.html">Projects</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="find-jobs.html">Find Jobs</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="blog.html">Blog</a>
+              </li>
             </ul>
+          </div>
         </div>
-        </div>
-    </nav>
-
-    <!-- Search Bar -->
-    <div class="container my-4">
+      </nav>
+    
+      <!-- Search Bar -->
+      <div class="container my-4">
         <input type="text" class="form-control" id="searchInput" placeholder="Search shots..." onkeyup="filterShots()" />
-    </div>
-
-    <!-- Main Content -->
-    <div class="container my-4">
+      </div>
+    
+      <!-- Main Content -->
+      <div class="container my-4">
         <div class="row" id="shotContainer">
-        <!-- Shots will be dynamically injected here -->
+          <!-- Shots will be dynamically injected here -->
         </div>
-    </div>
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="scripts/main.js"></script>
+      </div>
+    
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+      <script src="scripts/main.js"></script>
     </body>
     </html>
+
 
 
 # upload.html
@@ -370,11 +389,24 @@ Publish the website in the LocalHost.
 
 # OUTPUT:
 
-![alt text](image-1.png)
+![image](https://github.com/user-attachments/assets/1dafef25-050f-4619-97e7-23f4b0ba4bd7)
+
+![image](https://github.com/user-attachments/assets/5b6ee61e-7869-4bf3-b5de-97dc03b62ae2)
+
+
+![image](https://github.com/user-attachments/assets/c5928a78-392a-4872-affe-8e781232a1e7)
+
+
 
 ![alt text](image-2.png)
 
 ![alt text](image-3.png)
+
+![image](https://github.com/user-attachments/assets/b78b470e-5555-4eec-bb68-4b3212bfec90)
+
+![image](https://github.com/user-attachments/assets/2bc936fb-69c0-4e81-a3f3-ea6be7780bba)
+
+
 
 
 
